@@ -1,0 +1,39 @@
+
+
+
+  body{
+    background-color: #e0d1f5;
+  }
+.width{
+    width: 1000px;
+    height: 500px;
+}
+
+
+.img:hover{
+    transform: scale(10px 10px);
+}
+
+img{
+    display:inline-flex;
+     justify-content: center;
+     align-items: center;
+     width: 250px;
+     height:250px;
+     color: purple;
+     background-color: transparent;
+     border: 2px solid rgb(129, 46, 46);
+     border-radius: 10%;
+     margin: 2px;
+     font-size: 30px;
+     transition: 0.5s ease;
+  
+    
+ }
+ img:hover{
+    color: #000000;
+    transform: scale(1.5) translateY(-10px);
+    background-color:slateblue;
+   
+    
+ }
